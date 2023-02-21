@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>JavaScript pet projects</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<header>
+			<h1>JavaScript pet projects</h1>
+			<div class="school-name"></div>
+		</header>
+        <!-- ToDo list -->
+		<div class="simple-todo">
+			<div class="tasks-wrapper">
+				<h2>To do list</h2>
+				<ul id="todo-list">
+					<li>Learn</li>
+					<li>Practice</li>
+					<li>More practice</li>
+				</ul>
+			</div>
+			<form id="todo-form">
+				<input id="todo-input" type="text" placeholder="Type here" />
+				<button type="submit">Add</button>
+			</form>
+		</div>
+
+        <!-- Cronometru setInterval -->
+		<div class="dom-example">
+			<h2>Cronometru</h2>
+            <div class="counter" id="counter">0</div>
+            <button role="button" id="start">Start</button>
+            <button role="button" id="pause">Pause</button>
+            <button role="button" id="reset">Reset</button>
+		</div>
+
+		<!-- Fetch example - curs valutar -->
+		<div class="fetch-example">
+			<h2>Curs Valutar</h2>
+			<div class="currency-box">
+				<div class="currency-row" id="dollar">
+					<div class="currency-info">&#36;</div>
+					<span id="usd">76</span> RUB to USD
+				</div>
+				<div class="currency-row" id="euro">
+					<div class="currency-info">&#8364;</div>
+					<span id="eur">76</span> RUB to EUR
+				</div>
+			</div>
+
+		</div>
+		<script src="./main.js"></script>
+	</body>
+</html>
